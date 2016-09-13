@@ -8,8 +8,44 @@ package thegame.utilitaire;
 
 /**
  *
- * @author cryl
+ * @author cryl & huardm
  */
 public class Objet {
+    private int id;
+    private String name;
+    private int attaque;
+    private int defense;
+    private int niveau;
     
+    
+    public void setId(int prmId){
+        this.id = prmId;
+    }
+    public int getId(){
+        return this.id;
+    }
+    public void setName(String prmName){
+        this.name = prmName;
+    }
+    public String getName(){
+        return this.name;
+    }
+    public void setAttaque(int prmAttaque){
+        this.attaque = prmAttaque;
+    }
+    public int getAttaque(){
+        return this.attaque;
+    }
+    public void setDefense(int prmDefense){
+        this.defense = prmDefense;
+    }
+    public int getDefense(){
+        return this.defense;
+    }
+    public void setNiveau(int prmNiveau){
+        this.niveau = prmNiveau;
+    }
+    public int getNiveau(){
+        return this.niveau;
+    }
 }
