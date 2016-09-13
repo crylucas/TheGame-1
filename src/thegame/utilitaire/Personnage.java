@@ -16,7 +16,16 @@ public class Personnage {
     private int experience;
     private int niveau;
     private Inventaire inventaire;
-    
+    public Personnage(){
+        
+    }
+    public Personnage(int id, String nom, int experience, int niveau, Inventaire inventaire){
+        this.id = id;
+        this.nom = nom;
+        this.experience = experience;
+        this.niveau = niveau;
+        this.inventaire = inventaire;
+    }
     public void setId(int prmId) {
         this.id = prmId;
     }

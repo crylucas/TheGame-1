@@ -16,8 +16,16 @@ public class Objet {
     private int attaque;
     private int defense;
     private int niveau;
-    
-    
+    public Objet(){
+        
+    }
+    public Objet(int id,String name, int attaque, int defense, int niveau){
+        this.id = id;
+        this.name = name;
+        this.attaque = attaque;
+        this.defense = defense;
+        this.niveau = niveau;
+    }
     public void setId(int prmId){
         this.id = prmId;
     }

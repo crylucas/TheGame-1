@@ -13,8 +13,10 @@ import java.util.List;
  * @author cryl & huardm
  */
 public class Inventaire {
-    private List<Objet> listeObjet = new ArrayList();
-    
+    private List<Objet> listeObjet;
+    public Inventaire(){
+        this.listeObjet = new ArrayList();
+    }
     public void addInventaire(Objet objet) {
         this.listeObjet.add(objet);
     }
